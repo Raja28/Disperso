@@ -7,14 +7,15 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import OpenRoute from './components/OpenRoute.jsx'
 import { Dashboard } from './components/Dashboard.jsx';
-import { Layout } from './layout.jsx';
+
 import { Toaster } from 'react-hot-toast';
 import { Provider } from 'react-redux';
 import { store } from './app/store.js';
-
+import {Layout} from "./Layout.jsx"
 import PrivateRoute from './components/PrivateRoute.jsx';
 import { LoginForm } from './components/LoginForm.jsx';
 import List from './pages/list.jsx';
+
 
 const router = createBrowserRouter([
   {

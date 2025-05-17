@@ -14,7 +14,7 @@ import { store } from './app/store.js';
 import {Layout} from "./Layout.jsx"
 import PrivateRoute from './components/PrivateRoute.jsx';
 import { LoginForm } from './components/LoginForm.jsx';
-import List from './pages/list.jsx';
+import List from './pages/List.jsx';
 
 
 const router = createBrowserRouter([
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
   {
     path: "dashboard", element: <Layout />, children: [
       { path: "", element: <PrivateRoute><Dashboard /> </PrivateRoute> },
-      { path: "list", element: <PrivateRoute><List /> </PrivateRoute> }
+      { path: "list", element: <PrivateRoute> <List/> </PrivateRoute> }
     ]
   }
 ])

@@ -1,6 +1,6 @@
 
 
-import disperso_logo from "../assets/disperso_logo_2.png"
+import disperso_logo_new from "../assets/disperso_logo_new.png"
 import { useSelector } from 'react-redux';
 import { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
@@ -29,7 +29,7 @@ export const Header = () => {
                         <div className="offcanvas-header">
                             <h5 className="offcanvas-title" id="offcanvasNavbarLabel" style={{ maxWidth: "8rem" }}>
                                 <Link className="navbar-brand rounded  p-0" style={{ maxWidth: "6rem", overflow: "hidden" }} href="/dashboard" >
-                                    <img src={disperso_logo}
+                                    <img src={disperso_logo_new}
                                         alt="Wedo logo image"
                                         className='w-100 h-100 rounded img-fluid'
                                     />

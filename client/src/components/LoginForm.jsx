@@ -47,7 +47,7 @@ export const LoginForm = () => {
 
                 <div className="mx-auto">
                     <div className=" mx-auto" style={{ maxWidth: "14rem" }}>
-                        <img src={disperso_logo} alt="disperso logo" className="w-100 h-100" />
+                        <img src={disperso_logo_new} alt="disperso logo" className="w-100 h-100" />
 
                     </div>
                     <div className="text-center p-1 fw-semibold" style={{ fontSize: "0.9rem" }}>

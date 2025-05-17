@@ -1,5 +1,5 @@
 import { useState } from "react"
-import disperso_logo from "../assets/disperso_logo_2.png"
+import disperso_logo_new from "../assets/disperso_logo_new.png"
 import toast from "react-hot-toast"
 import { useDispatch, useSelector } from "react-redux"
 import { useNavigate } from "react-router-dom"

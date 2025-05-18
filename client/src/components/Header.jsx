@@ -15,7 +15,7 @@ export const Header = () => {
             <nav className=" navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container">
                     <Link className="navbar-brand rounded  p-0" style={{ maxWidth: "10rem", overflow: "hidden" }} href="/dashboard" >
-                        <img src={disperso_logo}
+                        <img src={disperso_logo_new}
                             alt="Wedo logo image"
                             className='w-100 h-100 rounded img-fluid '
 

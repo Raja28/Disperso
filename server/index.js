@@ -5,7 +5,7 @@ require("dotenv").config()
 PORT = process.env.PORT || 2026
 const cors = require("cors")
 app.use(cors({
-    origin: "*",
+    origin: "https://disperso-client.vercel.app/",
     credentials: true
 }))
 

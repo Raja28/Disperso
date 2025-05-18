@@ -47,7 +47,6 @@ Set up environment variables for both backend and frontend:
 
 Create a file named `.env` in the `server/` folder:
 
-```env
 PORT=5000
 MONGODB_URI
 JWT_SECRET
@@ -57,7 +56,6 @@ JWT_SECRET
 
 Create a file named `.env` in the `client/` folder:
 
-```env
 VITE_BASE_URL
 
 ---

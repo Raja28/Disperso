@@ -61,4 +61,13 @@ Create a file named `.env` in the `client/` folder:
 VITE_BASE_URL
 
 
+## 🛠️ Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Raja28/Disperso.git
+npm init -y
+npm install concurrently
+npm run dev
 

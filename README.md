@@ -60,6 +60,7 @@ Create a file named `.env` in the `client/` folder:
 ```env
 VITE_BASE_URL
 
+---
 
 ## 🛠️ Getting Started
 
